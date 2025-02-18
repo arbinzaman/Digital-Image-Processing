@@ -1,53 +1,34 @@
-# Digital Image Processing - Assignment 1
+# Assignment 2 - Multiple Transformation  
 
-## **Objective**
-This assignment focuses on fundamental image processing tasks using OpenCV and Matplotlib in Python. The two main tasks are:
+## Overview  
+This Jupyter Notebook contains the implementation of multiple data transformations as part of Assignment 2. The objective of this assignment is to apply various data transformation techniques to a given dataset and analyze the results.  
 
-1. Extracting a **100×100** region from the center of an image.
-2. Converting the image to **HSV color space** and visualizing the Hue, Saturation, and Value components in grayscale.
+## Contents  
+- **Notebook:** `Assignment_2_[id_212505106]_(multiple_transformation).ipynb`  
+- **Transformations Applied:**  
+  - Data Cleaning  
+  - Normalization/Standardization  
+  - Encoding Categorical Data  
+  - Feature Engineering  
+  - Aggregation & Filtering  
 
----
+## Requirements  
+To run this notebook, ensure you have the following dependencies installed:  
 
-## **Requirements**
-Ensure you have the following installed in your Google Colab or local Python environment:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
 
-- Python 3.x
-- OpenCV (`cv2`)
-- NumPy
-- Matplotlib
-- PIL (Pillow)
-- Google Colab (if using Google Drive for image storage)
-
-To install missing dependencies, run:
-
-```sh
-pip install opencv-python numpy matplotlib pillow
-
-````
-
-## **Usage Instructions**
-### **Step 1: Clone the Repository**
-#### **Create a separate repository for this assignment and upload the .ipynb file. Then, clone it using:**
-
-
-```sh
-git clone https://github.com/your-username/DIP-Assignment-1.git
-cd DIP-Assignment-1
 ```
 
-## **Step 2: Open and Run in Google Colab**
-### **If using Google Colab, upload the .ipynb file and make sure your image is in Google Drive. Then, mount your drive:**
+# Assignment 2 - Multiple Transformation  
 
-
-```python
-image_path = "/content/drive/MyDrive/UITS/Eight Semester/Digital Image Processing/Assigments/Class 1/pizza.jpg"
-cropped_image = extract_center_region(image_path)
-hsv_image = convert_to_hsv(image_path)
+### Usage
+```bash
+jupyter notebook Assignment_2_[id_212505106]_(multiple_transformation).ipynb
 ```
 
-## **Expected Output**
-#### **Task 1: Displays a 100x100 cropped image from the center.**
-#### **Task 2: Displays three grayscale images representing:**
-* Hue component
-* Saturation component
-* Value component
+# Author
+### Md Arbin Zaman
+
+# License
+### This project is for educational purposes only.
