@@ -1,16 +1,19 @@
-# Assignment 2 - Multiple Transformation  
+# Assignment 3 - Image Processing with OpenCV
 
 ## Overview  
-This Jupyter Notebook contains the implementation of multiple data transformations as part of Assignment 2. The objective of this assignment is to apply various data transformation techniques to a given dataset and analyze the results.  
+This assignment demonstrates various image processing techniques using OpenCV. The program generates two images (a green rectangle and a magenta circle) and performs multiple bitwise operations, element-wise multiplication, alpha blending, and subtraction.  
 
 ## Contents  
 - **Notebook:** `Assignment_2_[id_212505106]_(multiple_transformation).ipynb`  
 - **Transformations Applied:**  
-  - Data Cleaning  
-  - Normalization/Standardization  
-  - Encoding Categorical Data  
-  - Feature Engineering  
-  - Aggregation & Filtering  
+
+- Bitwise AND
+- Bitwise OR
+- Bitwise XOR
+- Bitwise NOT
+- Element-wise Multiplication
+- Alpha Blending
+- Image Subtraction
 
 ## Requirements  
 To run this notebook, ensure you have the following dependencies installed:  
